@@ -1,0 +1,15 @@
+# Environments (Virtual Envs)
+invoice-env/
+.venv/
+env/
+
+# Database files (since you are using sqlite3)
+*.sqlite3
+*.db
+
+# OCR/AI Models and downloads (easyocr often downloads models)
+.cache/
+models/
+
+# Environment variables (API keys for Euriai/LangGraph)
+.env
